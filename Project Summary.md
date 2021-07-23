@@ -20,6 +20,7 @@ The data I worked with came from [US Real Estate API](https://rapidapi.com/datas
 * Data Visualization: Plotly
 
 **Pipeline Overview**
+
 <img src="images/pipeline.png" width=500>
 
 ## Communication
