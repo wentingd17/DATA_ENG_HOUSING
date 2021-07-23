@@ -9,15 +9,15 @@ My data were pulled from [US Real Estate API](https://rapidapi.com/datascraper/a
 I have all my data saved in Mongodb. And I'm doing data EAD via Pyspark and Pandas.
 
 In last 8 months, LA, San Diego, San Jose and Sacramento have higher closed listing volume than other cities in CA.
-<img src="closed_listing_by_cities.png" width=500>
+<img src="/images/closed_listing_by_cities.png" width=500>
 
 The most expensive zipcode is 94027, which is Atherton in Palo Alto, CA.
-<img src="median_price_by_zip.png" width=500>
+<img src="/images/median_price_by_zip.png" width=500>
 
-<img src="median_sqrtprice_by_zip.png" width=500>
+<img src="/images/median_sqrtprice_by_zip.png" width=500>
 
-The map below is a screen shot of a plotly chart, which shows the median property price in the Bay Area. 
-<img src="BayArea.png" width=500>
+The map below is a screen shot of a plotly chart, which shows the median property price in the Bay Area.
+<img src="/images/BayArea.png" width=500>
 
 
 I'm training a linear regression model now to predict the percentage change of close price vs. listing price.
