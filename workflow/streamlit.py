@@ -76,7 +76,7 @@ output.set_index('address_sold', inplace = True)
 #Map Chart
 map_data.rename(columns = {'median_sold_price_by_city': 'Median Price'}, inplace = True)
 map_data['info'] = map_data['address'] + ', ' + map_data['zipcode'].astype(str)
-secret_token='pk.eyJ1IjoiY3VyZWxsYTE3IiwiYSI6ImNrcmNoc2VhbzAxaW4ycGxqaDNiendkNTkifQ.z29OPCgvUZnrmVk-moTcFg'
+secret_token=' '
 px.set_mapbox_access_token(secret_token)
 fig = px.scatter_mapbox(map_data, lat="lat", lon="lon", text = 'city', color = 'Median Price',
                         color_continuous_scale = 'oryel', hover_name = 'info',
